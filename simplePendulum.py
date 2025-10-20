@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+
 from matplotlib.gridspec import GridSpec
 
 time = []
@@ -65,6 +66,7 @@ table.scale(1.2, 1.4)
 plt.tight_layout()
 
 
+plt.savefig("grafico1.png")
 plt.show()
 
 # menor valor do periodo é 0,14s, exatamente quando ele exatamente na outra extremidade do pêndulo
